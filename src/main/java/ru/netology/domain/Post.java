@@ -3,7 +3,7 @@ package ru.netology.domain;
 public class Post {
 
     private int postID;
-    private int AuthorID;
+    private int authorID;
     private int ownerID;  //id владельца стены, на которой размещена запись
     private int postTime;
     private String text;
@@ -13,7 +13,12 @@ public class Post {
     private boolean complain; // пожаловаться
     private boolean bookmark; // в закладки
 
-    private String postType;     //V2
+    private CommentsInfo commentsInfo;
+    private LikesInfo likesInfo;
+    private ViewsInfo viesInfo;
+    private RepostInfo repostInfo;
+
+    private String postType;    //V2
     private boolean canPin;     //V2
     private boolean canDelete;  //V2
     private boolean canEdit;    //V2

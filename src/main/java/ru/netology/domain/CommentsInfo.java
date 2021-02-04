@@ -4,7 +4,7 @@ public class CommentsInfo {
     private int count;
     private boolean canPost;
     private boolean groupCanPost;
-    private int AuthorID;
+    private int authorID;
     private String text;
     private int postTime;
     private boolean complain;

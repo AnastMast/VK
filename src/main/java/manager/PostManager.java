@@ -11,10 +11,10 @@ public class PostManager {
         return null;
     }
 
-        public void delete (int ownerId, int postId) {
-        }
+    public void delete(int postId) {
+    }
 
-        public Post[] search (int ownerId,  String domain, String query, boolean ownersOnly, int count, int offset){
+    public Post[] search(int ownerId, String domain, String query, boolean ownersOnly, int count, int offset) {
         // TODO: add logic
         return null;
     }
